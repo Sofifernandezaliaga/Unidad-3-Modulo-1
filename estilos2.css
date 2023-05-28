@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+
+body{
+    background-color: rgb(240, 200, 216);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+   font-size: 23px;
+   line-height: 25px;
+   margin: 0;
+}
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(221, 15, 101);
+    color: aliceblue;
+    
+   }
+header h1 {
+    font-style: italic;
+    display: inline-block;
+   position: relative;
+   bottom: 30px;
+   margin-left: 10px;
+    
+   }
+   
+#circulo {
+   border-radius: 50%;
+   margin: 15px 15px 7px 15px;
+}
+
+
+nav{
+    background-color: rgb(235, 112, 163);
+    
+   
+}
+
+nav ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+nav ul li {
+    flex-grow: 1;
+   
+}
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none; 
+    display: block;
+   text-align: center;
+    padding: 5px;
+
+}
+
+nav ul li a:hover {
+    background-color:rgba(221, 15, 101, 0.5) ;
+
+}
+nav ul li a#color {
+ background-color: rgba(221, 15, 101, 0.5);
+
+}
+
+h2{
+
+    width: fit-content;
+    margin-top: 20px;
+    color: rgb(233, 94, 152);
+    background-color: aliceblue;
+    border-radius:  15px;
+    padding: 20px;
+   
+}
+
+h3 {
+    color: rgb(218, 78, 136);
+    background-color:aliceblue; 
+    width: fit-content;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+
+}
+#columna {
+    display: flex;
+}
+#logos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    
+    
+}
+
+
+#Contacto {
+    background-color: rgb(236, 152, 180) ;
+    padding: 20px;
+   
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#Redes_sociales {
+    background-color: rgb(240, 166, 191) ;
+    padding: 20px;
+   
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+   
+}
+
+
+
+
+figure{
+    font-style: italic;
+    background-color: rgb(238, 212, 221);
+    padding: 5px;
+    width: fit-content;
+    border-radius: 5px;
+   
+}
+figcaption{
+    color: rgb(160, 40, 86);
+}
+footer {
+    text-align: center;
+    font-weight: lighter;
+    background-color: rgb(255, 223, 245);
+    padding: 50px;
+    margin-top: 20px;
+    
+   
+}
+
+
